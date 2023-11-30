@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "League Spartan", sans-serif;
+}
+
+.hero {
+    background-color: #F8F8F8;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content span {
+    font-size: 24px;
+    color: #161515;
+    font-weight: 300;
+}
+
+.content h1 {
+    font-size: 250px;
+    font-weight: 300;
+    margin-top: 50px;
+
+}
+
+.content p {
+    font-size: 32px;
+    max-width: 575px;
+    font-weight: 300;
+    line-height: 155%;
+
+}
+
+.buttons {
+    display: flex;
+    margin-top: 60px;
+
+}
+
+.buttons button {
+    padding: 30px 73px;
+    border: none;
+    cursor: pointer;
+    font-size: 32px;
+
+
+}
+
+.black {
+    background: #161515;
+    color: white;
+}
+
+.white {
+    background: white;
+    padding: 30px 27px !important;
+}
+
+
+.nagi span {
+    width: 171px;
+    height: 41px;
+
+}
+
+.content {
+    display: flex;
+    /* align-items: center; */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header h2 {
+    color: #000;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 400;
+    margin: 30px;
+}
+
+.header h6 {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.img img {
+
+    background-color: #F8F8F8;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 417px;
+    height: 630px; */
+}
+
+
+.header p {
+    margin: 50px;
+    color: var(--, #161515);
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+
+}
+
+
+
+
+.nagi h1 {
+    text-align: center;
+
+
+
+}
+
+.nagi p {
+    width: 515px;
+    height: 231px;
+    flex-shrink: 0;
+    color: var(--, #161515);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 170%;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.nagi p span {
+    color: #BB8B5D;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 170%;
+
+}
+
+.nagi hr{
+    width: 178.025px;
+/* height: 1px; */
+background: #707070;
+ margin-left: 475px;
+ margin-top: 20px;
+}
+
